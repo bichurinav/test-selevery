@@ -1,6 +1,7 @@
-const express = require("express");
-const fs = require("fs/promises");
-const path = require("path");
+import express from "express";
+import fs from "fs/promises";
+import path from "path";
+
 const app = express();
 const port = 3080;
 
